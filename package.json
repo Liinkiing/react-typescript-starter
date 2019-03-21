@@ -1,0 +1,61 @@
+{
+  "name": "react-typescript-starter",
+  "description": "A simple starter to work with React, Typescript and reach router",
+  "author": "Omar Jbara <omar.jbara2@gmail.com>",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Liinkiing/react-typescript-starter",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/Liinkiing/react-typescript-starter/issues"
+  },
+  "dependencies": {
+    "@liinkiing/react-hooks": "^1.0.8",
+    "@reach/router": "^1.2.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "mobx": "^5.9.0",
+    "mobx-react-lite": "^1.1.1",
+    "prettier": "^1.16.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.5",
+    "styled-components": "^4.1.3",
+    "typescript": "3.3.3333"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,md,ts,tsx,scss}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/jest": "24.0.6",
+    "@types/node": "11.9.5",
+    "@types/reach__router": "^1.2.3",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "@types/styled-components": "^4.1.12"
+  }
+}
