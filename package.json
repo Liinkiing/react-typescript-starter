@@ -1,6 +1,6 @@
 {
   "name": "react-typescript-starter",
-  "description": "A simple starter to work with React, Typescript and reach router",
+  "description": "A simple starter to work with React, Typescript, Mobx, styled, reach router and prettier",
   "author": "Omar Jbara <omar.jbara2@gmail.com>",
   "version": "1.0.0",
   "repository": {
